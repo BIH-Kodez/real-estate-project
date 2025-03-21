@@ -1,6 +1,9 @@
 // InvestmentGridSection.jsx
 import { motion } from "framer-motion";
 import Button from "./ui/Button";
+import Houseonebeach from "../assets/images/Houseonbeach.jpg";
+
+
 
 
 const InvestmentGridSection = () => {
@@ -54,13 +57,23 @@ const InvestmentGridSection = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="grid gap-8"
           >
+            {/* Investor Trust Card */}
             <div className="p-8 bg-green-50 rounded-xl">
               <div className="text-5xl font-bold text-green-600">95%</div>
               <div className="text-gray-600 mt-2">INVESTOR TRUST</div>
             </div>
 
-            <div className="p-8 bg-gray-50 rounded-xl">
-              <div className="flex justify-between items-start">
+            {/* Property Card with Image */}
+            <div className="p-6 bg-gray-50 rounded-xl shadow-lg">
+              {/* Property Image */}
+              <img
+                src={Houseonebeach}    // Update this path based on your actual project structure
+                alt="Luxury Oceanfront Property"
+                className="w-full h-48 object-cover rounded-lg transition-transform duration-300 hover:scale-155"
+              />
+
+              {/* Property Details */}
+              <div className="flex justify-between items-start mt-4">
                 <div>
                   <h3 className="text-xl font-bold">Luxury Oceanfront</h3>
                   <p className="text-gray-600">Miami, Florida</p>
@@ -72,6 +85,7 @@ const InvestmentGridSection = () => {
               </div>
             </div>
           </motion.div>
+
         </div>
       </div>
     </section>

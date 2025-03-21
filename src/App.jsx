@@ -4,6 +4,10 @@ import MainSection from "./components/MainSection";
 import Cityscape from './components/Cityscape';
 import StatsSection from './components/StatsSection';
 import InvestmentGridSection from './components/InvestmentGridSection';
+import InvestmentAdvantageSection from './components/InvestmentAdvantageSection';
+import PropertyListingSection from './components/PropertyListingSection';
+import InvestmentProcessSection from './components/InvestmentProcessSection';
+import TestimonialCarousel from './components/TestimonialCarousel';
 
 
 function App() {
@@ -22,6 +26,15 @@ function App() {
 
        {/* Add InvestmentGridSection last for testing */}
        <InvestmentGridSection />
+
+      {/* Add InvestmentAdvantageSection last for testing */}
+       <InvestmentAdvantageSection />
+
+       <PropertyListingSection />
+
+       <InvestmentProcessSection />
+
+       <TestimonialCarousel />
     </div>
   );
 }
