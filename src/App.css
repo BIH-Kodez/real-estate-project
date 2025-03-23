@@ -1,0 +1,20 @@
+
+
+/* Testimoniol Carousel */
+.testimonial-carousel .slick-dots li button:before {
+    color: #4ade80; /* Green color for dots */
+  }
+  
+  .testimonial-carousel .slick-prev:before,
+  .testimonial-carousel .slick-next:before {
+    color: #4ade80;
+    font-size: 24px;
+  }
+  
+  .testimonial-carousel .slick-prev {
+    left: -35px;
+  }
+  
+  .testimonial-carousel .slick-next {
+    right: -35px;
+  }

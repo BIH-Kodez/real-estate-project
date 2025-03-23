@@ -8,6 +8,8 @@ import InvestmentAdvantageSection from './components/InvestmentAdvantageSection'
 import PropertyListingSection from './components/PropertyListingSection';
 import InvestmentProcessSection from './components/InvestmentProcessSection';
 import TestimonialCarousel from './components/TestimonialCarousel';
+import ConfidenceCTA from "./components/ConfidenceCTA";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -35,6 +37,10 @@ function App() {
        <InvestmentProcessSection />
 
        <TestimonialCarousel />
+
+       <ConfidenceCTA />
+
+       <Footer />
     </div>
   );
 }

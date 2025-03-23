@@ -25,7 +25,7 @@ const NavBar = () => {
       className="fixed top-6 left-1/2 transform -translate-x-1/2 w-[92%] md:w-[90%] lg:w-[75%] xl:w-[70%] bg-white border border-gray-200 shadow-lg rounded-full py-3 px-4 sm:px-6 md:px-8 flex justify-between items-center z-50"
     >
       {/* Logo */}
-      <h1 className="text-2xl font-bold text-green-700 md:mr-4 lg:mr-8 whitespace-nowrap">livest</h1>
+      <h1 className="text-2xl font-bold text-green-700 md:mr-4 lg:mr-8 whitespace-nowrap">Cando</h1>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex flex-grow justify-center space-x-4 lg:space-x-6 xl:space-x-8 text-gray-700 font-medium">
